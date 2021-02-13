@@ -1,0 +1,10 @@
+{
+    "parent": "minecraft:block/grass_block",
+    "textures": {
+        "particle": "minecraft:block/stone",
+        "bottom": "minecraft:block/stone",
+        "top": "minecraft:block/grass_block_top",
+        "side": "altum_jungle:block/overgrown_stone_side",
+        "overlay": "altum_jungle:block/overgrown_stone_side_overlay"
+    }
+}

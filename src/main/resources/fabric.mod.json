@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "altum_jungle",
+  "version": "${version}",
+  "name": "Altum Jungle",
+  "description": "Deep below lies a forgotten jungle; a reminder of a time long, long ago.",
+  "authors": [
+    "Jenny a.k.a. Xero/Xerousso"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/altum_jungle/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.xerousso.altumjungle.AltumJungle"
+    ],
+    "client": [
+      "com.xerousso.altumjungle.AltumJungleClient"
+    ]
+  },
+  "mixins": [
+    "altum_jungle.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.1",
+    "fabric": "*",
+    "minecraft": "1.17-alpha.21.6.a"
+  }
+}

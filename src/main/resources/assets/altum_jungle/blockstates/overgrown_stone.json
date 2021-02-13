@@ -1,0 +1,24 @@
+{
+    "variants": {
+      "snowy=false": [
+            {
+               "model": "altum_jungle:block/overgrown_stone"
+            },
+            {
+                "model": "altum_jungle:block/overgrown_stone",
+                "y": 90
+            },
+            {
+                "model": "altum_jungle:block/overgrown_stone",
+                "y": 180
+            },
+            {
+                "model": "altum_jungle:block/overgrown_stone",
+                "y": 270
+            }
+        ],
+        "snowy=true": {
+            "model": "altum_jungle:block/overgrown_stone_snow"
+        }
+    }
+}
