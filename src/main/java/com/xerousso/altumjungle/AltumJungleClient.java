@@ -1,6 +1,5 @@
 package com.xerousso.altumjungle;
 
-import com.mojang.datafixers.util.Function4;
 import com.xerousso.altumjungle.blocks.AltumBlocks;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
@@ -9,11 +8,14 @@ import net.minecraft.block.Block;
 import net.minecraft.client.color.block.BlockColorProvider;
 import net.minecraft.client.color.item.ItemColorProvider;
 import net.minecraft.client.color.world.BiomeColors;
+import net.minecraft.client.color.world.GrassColors;
 import net.minecraft.client.render.RenderLayer;
 import net.minecraft.item.Item;
 import net.minecraft.world.level.ColorResolver;
 
 public class AltumJungleClient implements ClientModInitializer {
+
+    public static final int GRASS_COLOR = GrassColors.getColor(0.5D, 1.0D);
 
     @Override
     public void onInitializeClient() {
@@ -23,7 +25,7 @@ public class AltumJungleClient implements ClientModInitializer {
 
     private static void registerColorProviders() {
         registerBlockColorProviderWithColorResolver(AltumBlocks.OVERGROWN_STONE, BiomeColors.GRASS_COLOR);
-//        registerItemColorProvider(AltumBlocks.OVERGROWN_STONE.asItem());
+        registerItemColorProvider(AltumBlocks.OVERGROWN_STONE.asItem(), (stack, tintIndex) -> GRASS_COLOR);
     }
 
     private static void applyRenderLayers() {

@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+         "all": "altum_jungle:block/loose_bedrock"
+    }
+}
