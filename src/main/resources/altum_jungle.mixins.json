@@ -4,8 +4,6 @@
   "package": "com.xerousso.altumjungle.mixins",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "ChunkGeneratorSettingsMixin",
-    "DimensionTypeMixin"
   ],
   "client": [
   ],
