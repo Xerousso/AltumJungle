@@ -4,11 +4,11 @@
     "block.altum_jungle.jadeite_ore": "Jadeite Ore",
 
     "item.altum_jungle.jade": "Jade",
-    "item.altum_jungle.jade_sword": "Jade Sword",
-    "item.altum_jungle.jade_shovel": "Jade Shovel",
-    "item.altum_jungle.jade_pickaxe": "Jade Pickaxe",
-    "item.altum_jungle.jade_axe": "Jade Axe",
-    "item.altum_jungle.jade_hoe": "Jade Hoe",
+    "item.altum_jungle.altuminium_sword": "Altuminium Sword",
+    "item.altum_jungle.altuminium_shovel": "Altuminium Shovel",
+    "item.altum_jungle.altuminium_pickaxe": "Altuminium Pickaxe",
+    "item.altum_jungle.altuminium_axe": "Altuminium Axe",
+    "item.altum_jungle.altuminium_hoe": "Altuminium Hoe",
     
     "itemGroup.altum_jungle.altum_jungle": "Altum Jungle"
 }

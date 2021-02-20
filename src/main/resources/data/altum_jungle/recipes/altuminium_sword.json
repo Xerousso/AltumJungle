@@ -1,19 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "JJJ",
-    " S ",
-    " S "
+    "J",
+    "J",
+    "S"
   ],
   "key": {
     "S": {
       "item": "minecraft:stick"
     },
     "J": {
-      "item": "altum_jungle:jade"
+      "item": "altum_jungle:altuminium_ingot"
     }
   },
   "result": {
-    "item": "altum_jungle:jade_pickaxe"
+    "item": "altum_jungle:altuminium_sword"
   }
 }

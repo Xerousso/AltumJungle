@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "JJ",
-    "JS",
+    " S",
     " S"
   ],
   "key": {
@@ -10,10 +10,10 @@
       "item": "minecraft:stick"
     },
     "J": {
-      "item": "altum_jungle:jade"
+      "item": "altum_jungle:altuminium_ingot"
     }
   },
   "result": {
-    "item": "altum_jungle:jade_axe"
+    "item": "altum_jungle:altuminium_hoe"
   }
 }
