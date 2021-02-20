@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "JJ",
+    " S",
+    " S"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "J": {
+      "item": "altum_jungle:jade"
+    }
+  },
+  "result": {
+    "item": "altum_jungle:jade_hoe"
+  }
+}

@@ -2,6 +2,13 @@
     "block.altum_jungle.overgrown_stone": "Overgrown Stone",
     "block.altum_jungle.loose_bedrock": "Loose Bedrock",
     "block.altum_jungle.jadeite_ore": "Jadeite Ore",
+
+    "item.altum_jungle.jade": "Jade",
+    "item.altum_jungle.jade_sword": "Jade Sword",
+    "item.altum_jungle.jade_shovel": "Jade Shovel",
+    "item.altum_jungle.jade_pickaxe": "Jade Pickaxe",
+    "item.altum_jungle.jade_axe": "Jade Axe",
+    "item.altum_jungle.jade_hoe": "Jade Hoe",
     
     "itemGroup.altum_jungle.altum_jungle": "Altum Jungle"
 }
