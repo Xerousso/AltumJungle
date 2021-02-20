@@ -15,9 +15,7 @@ import net.minecraft.util.math.IntRange;
 import net.minecraft.util.registry.Registry;
 
 public class AltumBlocks {
-
-    public static final Block LOOSE_BEDROCK = registerBlock("loose_bedrock",
-            new Block(FabricBlockSettings.of(Material.STONE, MapColor.BLACK).requiresTool().strength(50.0F, 1200.0F)));
+    
     public static final Block JADEITE_ORE = registerBlock("jadeite_ore", new OreBlock(FabricBlockSettings.of(Material.STONE)
             .requiresTool().strength(3.0f, 3.0f), IntRange.between(3, 7)));
 
