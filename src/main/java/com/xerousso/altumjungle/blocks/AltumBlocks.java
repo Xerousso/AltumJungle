@@ -15,7 +15,7 @@ import net.minecraft.util.math.IntRange;
 import net.minecraft.util.registry.Registry;
 
 public class AltumBlocks {
-    
+
     public static final Block JADEITE_ORE = registerBlock("jadeite_ore", new OreBlock(FabricBlockSettings.of(Material.STONE)
             .requiresTool().strength(3.0f, 3.0f), IntRange.between(3, 7)));
 

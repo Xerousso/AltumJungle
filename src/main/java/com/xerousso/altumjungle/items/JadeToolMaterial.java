@@ -7,17 +7,17 @@ public class JadeToolMaterial implements ToolMaterial {
 
     @Override
     public int getDurability() {
-        return 1450;
+        return 1300;
     }
 
     @Override
     public float getMiningSpeedMultiplier() {
-        return 8.25f;
+        return 8;
     }
 
     @Override
     public float getAttackDamage() {
-        return 2.75f;
+        return 2;
     }
 
     @Override
@@ -27,7 +27,7 @@ public class JadeToolMaterial implements ToolMaterial {
 
     @Override
     public int getEnchantability() {
-        return 14;
+        return 20;
     }
 
     @Override

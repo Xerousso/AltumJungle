@@ -9,7 +9,7 @@
   ],
   "contact": {},
   "license": "MIT",
-  "icon": "assets/altum_jungle/icon.png",
+  "icon": "assets/altum_jungle/textures/item/jade.png",
   "environment": "*",
   "entrypoints": {
     "main": [
